@@ -1,5 +1,5 @@
 .container {
-	padding: 20px;
+	padding: 30px;
 	border: 2px solid black;
 }
 
@@ -24,4 +24,26 @@
 .badge {
 	font-size: 17px;
 	margin: 5px;
+}
+
+.cust-text {
+	font-size: 18px;
+}
+
+.text-muted {
+	margin-top: -20px; 
+	font-size: 15px; 
+	font-style: italic;
+}
+
+.text-primary {
+	margin-top: -20px; 
+	font-size: 15px; 
+	font-style: italic;
+}
+
+.disabled {
+	color: black !important;
+	font-weight: bold;
+	margin-top: 5px;
 }
