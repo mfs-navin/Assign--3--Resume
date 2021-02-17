@@ -3,11 +3,27 @@
 	border: 2px solid black;
 }
 
+hr {
+	background-color: #0275d8;
+	height: 5px;
+}
+
+#name{
+	color: #0275d8;
+}
+
 #DP {
 	border-radius: 60%;
-	border: 3px solid black;
-	height: 200px;
+	border: 5px solid black;
+	width: 226px!important;
+    max-width: 190px!important;
+    max-height: 190px!important;
+    height: 226px!important;
 	align-content: center;
+}
+
+.icon {
+	margin-left: 10px;
 }
 
 .center {
