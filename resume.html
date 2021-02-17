@@ -4,82 +4,113 @@
 	<title>Resume</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="https://kit.fontawesome.com/8a3e0773b7.js" crossorigin="anonymous"></script>
 </head>
 <body>
 	<div class="container">
 		<div class="row">
-			<div class="col-sm-12 col-md-9 col-lg-4" >
-				<h2>Navin Chandra</h2>
+			<div class="col-md-4 " >
+				<h2 id="name">Navin Chandra</h2>
 				<p>Software Engineer Intern</p>
 				<p>I a passion of problem-solving. I also like challenging works. I am a good learner. I have a good foundatiion in logic building. I like to solve challenging in tasks.</p>
 			</div>
-			<div class="col-sm-12 col-md-3 col-lg-4">
+			<div class="col-md-4">
 				<img src="Images/Navin.jpeg" id="DP" class="center">
 			</div>
-			<div class="col-sm-12 col-md-12 col-lg-4 float-right" >
-				<p>navinchndr012@gmail.com</p>
-				<p>+91737557339</p>
-				<p>Bhubaneswar, India</p>
-				<p>linkedin.com/in/navinchndr012</p>
-				<p>github.com/navinchndr</p>
+			<div class="col-md-4 float-right" >
+				<p>navinchndr012@gmail.com<i class="fas fa-envelope icon text-primary"></i></p>
+				<p>+91737557339<i class="fas fa-mobile-alt icon text-primary"></i></p>
+				<p>Bhubaneswar, India<i class="fas fa-map-marker-alt icon text-primary"></i></p>
+				<p>linkedin.com/in/navinchndr012<i class="fab fa-linkedin-in icon text-primary"></i></p>
+				<p>github.com/navinchndr<i class="fab fa-github icon text-primary"></i></p>
 			</div>
 		</div>
 		<hr>
 
 
 		<div class="row">
-			<div class="col-md-6">
+			<div class="col-md-5">
 				<h4>EDUCATION</h4>
+				<br>
 				<div class="row">
 					<div class="col">
 						<h5>Bachelor of Technology</h5>
-						<hr>
 						<h6>Silicon Institute of Technology</h6>
 						<div class="row">
 							<div class="col-md-6">
-								<p>08/2017 - Present</p>
+								<p><i>08/2017 - Present</i></p>
 							</div>
 							
 							<div class="col-md-6">
-								<p class="float-right">CGPA-8.24</p>
+								<p class="float-right"><i>CGPA-8.24</i></p>
 							</div>
 						</div>
 					</div>
 				</div>
+				<br>
 				<div class="row">
 					<div class="col">
 						<h5>Intermediate</h5>
-						<hr>
 						<h6>D.A.V. Public School, IB Valley Area</h6>
 						<div class="row">
 							<div class="col-md-6">
-								<p>08/2015 - 05/2017</p>
+								<p><i>08/2015 - 05/2017</i></p>
 							</div>
 							
 							<div class="col-md-6">
-								<p class="float-right">80%</p>
+								<p class="float-right"><i>80%</i></p>
 							</div>
 						</div>
 					</div>
 				</div>
+				<br>
 				<div class="row">
 					<div class="col">
 						<h5>Matriculation</h5>
-						<hr>
 						<h6>D.A.V. Public School S.O.C.P</h6>
 						<div class="row">
 							<div class="col-md-6">
-								<p>2014-2015</p>
+								<p><i>2014-2015</i></p>
 							</div>
 							
 							<div class="col-md-6">
-								<p class="float-right">CGPA-8.6</p>
+								<p class="float-right"><i>CGPA-8.6</i></p>
 							</div>
 						</div>
 					</div>
 				</div>
+				<br>
+				<div class="row">
+					<div class="col">
+						<h4>PERSONAL PROJECTS</h4>
+						<p class="cust-text">Bengaluru House Price Prediction(ML) (06/2020 - 06/2020)</p>
+						<ul>
+							<li>
+								This project was about housing price prediction. The model was trained according to the Housing prices of Bengaluru city. The project consists of stages as follows:-
+							</li>
+							<li>Data Cleaning and Preprocessing</li>
+							<li>Data Analysis</li>
+							<li>Feature Selection and Feature Scaling</li>
+							<li>Choosing appropriate model and its hyper-parameter using GridSearchCV</li>
+							<li>Model validation using cross-validation techniques</li>
+							<li>Prediction on some real-life data and checking accuracy</li>
+							<li>Github- https://github.com/navinchndr012/Bengaluru_Housing_Price_Prediction.git</li>
+						</ul>
+						<p class="cust-text">Image Enhancement using Python (03/2019 - 04/2019)</p>
+						<ul>
+							<li>
+								This project is about extracting the RGB features of the input image and then converting it to its equivalent HSV form using mathematical formulas than boosting its saturation and making it sharper using the converted HSV values and lastly reconverting all the modified features back to its equivalent RGB data, thus resulting in an enhanced image more beautiful and sharp than earlier.
+							</li>
+							<li>Github- https://github.com/navinchndr012/Image-Enhancement.git</li>
+						</ul>
+					</div>
+				</div>				
 			</div>
-			<div class="col-md-6 " id="skills">
+
+			<div class="col-md-2"></div>
+
+<!-- SKILL Section -->			
+			<div class="col-md-5 " id="skills">
 				<div class="row">
 					<div class="col">
 						<h4>SKILLS</h4>
@@ -161,7 +192,6 @@
 						<button type="button" class="btn btn-outline-secondary disabled">Music</button>			
 						<button type="button" class="btn btn-outline-secondary disabled">Arduino IDE</button>
 					</div>
-					
 				</div>
 			</div>
 		</div>
